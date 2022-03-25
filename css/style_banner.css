@@ -1,0 +1,219 @@
+.banner{
+    width: 1510px;
+    height: 1026px;
+    background: url(/TeachMeSkills/HW/task__all/assets/image.svg);
+}
+.banner__header{
+    width: 1510px;
+    height: 76px;
+    background-color: black;
+    display: inline-flex;
+}
+.banner__header__logo{
+    width: 183px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 115.28px;
+}
+.banner__header__menu{
+    width: 570px;
+    height: 75px;
+    display: flex;
+    margin-left: 471.62px;
+}
+.banner__header__menu__name{
+    width: 114px;
+    height: 75px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.banner__header__menu__name:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    top: -8px;
+    left: -8px; 
+    color: #a4f70b;
+    border: 2px solid #a4f70b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.banner__content{
+    width: 1510px;
+    height: 951px;
+}
+.banner__content__logo{
+    width: 270px;
+    height: 100px;
+    margin-top: 208px;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__content__text{
+    width: 670px;
+    height: 168px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 72.88px;
+    margin-left: 170px;
+}
+.banner__content__separator{
+    width: 170px;
+    height: 2px;
+    border: none; 
+    background-color: #FFFFFF; 
+    color: #FFFFFF;
+    margin-top: 55.12px;
+    margin-left: 170px;
+}
+.banner_content__text__2{
+    width: 270px;
+    height: 42px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 42px;
+    margin-left: 170px;
+}
+.banner__content__button{
+    width: 270px;
+    height: 58px;
+    margin-top: 42px;
+    margin-left: 170px;
+    background: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.banner__content__form{
+    width: 470px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 870px;
+    margin-top: -560px;
+}
+.banner__content__form__img{
+    width: 367px;
+    height: 90px;
+    margin-left: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__content__form__input__1{
+    width: 370px;
+    height: 38px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.banner__content__form__input__2{
+    width: 370px;
+    height: 38px;
+    margin-top: 33px;
+    margin-left: 50px;
+}
+.banner__content__form__input__type{
+    width: 370px;
+    height: 38px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #BDBDBD;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+.banner__content__form__button{
+    width: 470px;
+    height: 60px;
+    margin-top: 75px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+.banner__content__form:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    top: -8px;
+    left: -8px;    
+}
+.banner__content__button:hover{
+    color: #a4f70b;
+    box-shadow: inset 0 0 0 5px #a4f70b;
+}
+.social{
+    width: 1510px;
+    height: 140px;
+    display: inline-flex;
+    background: #F8EFEF;
+}
+.social__content__text__1{
+    width: 470px;
+    height: 60px;
+    margin-top: 2px;
+    margin-left: 170px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #333333;
+}
+.social__content__text__2{
+    width: 470px;
+    height: 42px;
+    margin-top: 18px;
+    margin-left: 170px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+}
+.social__icon{
+    width: 637px;
+    height: 140px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#style__icon{
+    color: #CCCCCC;
+}
+#style__icon:hover{
+    color: aqua;
+}

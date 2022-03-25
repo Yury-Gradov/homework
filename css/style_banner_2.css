@@ -1,0 +1,63 @@
+.banner__second{
+    width: 1510px;
+    height: 442px;
+    background: url(/TeachMeSkills/HW/task__all/assets/image__2.svg);
+}
+.banner__second__text__1{
+    width: 1170px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 169px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner__second__line{
+    width: 170px;
+    height: 2px;
+    border: none; 
+    background-color: #FFFFFF; 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-left: 669px;
+}
+.banner__second__text__2{
+    width: 1169px;
+    height: 21px;
+    margin-top: 40px;
+    margin-left: 170px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.banner__second__button{
+    width: 370px;
+    height: 58px;
+    margin-top: 73px;
+    margin-left: 570px;
+    background: none;
+    border: 2px solid white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.banner__second__button:hover{
+    color: #a4f70b;
+    box-shadow: inset 0 0 0 5px #a4f70b;
+    border: #a4f70b;
+}
