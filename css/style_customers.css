@@ -1,0 +1,114 @@
+.customers__center{
+    width: 1510px;
+    height: 694px;
+    display: flex;
+    justify-content: center;
+}
+.container__customers{
+    width: 1170px;
+    height: 630px;
+}
+.container__customers__header{
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container__customers__line{
+    width: 170px;
+    height: 2px;
+    border: none; 
+    background-color: #EC7979; 
+    color: #EC7979;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+.container__customers__text{
+    width: 1170px;
+    height: 21px;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #86878B;
+}
+.container__customers__box{
+    width: 1170px;
+    height: 336px;
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+.container__customers__box__content{
+    width: 370px;
+    height: 336px;
+}
+.container__customers__box__content__text{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+.container__customers__box__content__triangle{
+    margin-left: 70px;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+}
+.container__customers__box__content__footer{
+    width: 370px;
+    height: 90px;
+    margin-top: 46px;
+    display: inline-flex;
+}
+.container__customers__box__content__footer__text{
+    width: 269px;
+    height: 90px;
+    margin-left: 30px;
+}
+.container__customers__box__content__image{
+    width: 70px;
+    height: 70px;
+}
+.container__customers__box__content__h4{
+    width: 269px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.container__customers__box__content__h5{
+    width: 270px;
+    height: 21px;
+    margin-top: 15px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
