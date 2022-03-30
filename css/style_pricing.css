@@ -55,6 +55,10 @@
     width: 370px;
     height: 500px;
 }
+.container__pricing__tariffs__basic, .container__pricing__tariffs__pro{
+    width: 370px;
+    height: 500px;
+}
 .container__pricing__tariffs__name{
     width: 370px;
     height: 60px;
@@ -84,9 +88,6 @@
     justify-content: center;
     color: #FFFFFF;
 }
-.container__pricing__tariffs__price:hover{
-    color: aqua;
-}
 .container__pricing__tariffs__motto{
     width: 370px;
     height: 50px;
@@ -115,4 +116,117 @@
     justify-content: center;
     text-transform: capitalize;
     color: #86878B;
+}
+@media (max-width: 1024px) {
+    .pricing__center{
+        width: 100%;
+    }
+    .container__pricing{
+        width: 100%;
+        height: 770px;
+    }
+    .container__pricing__header{
+        width: 100%;
+        height: 120px;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .container__pricing__line{
+        width: 143px;
+        height: 2px; 
+        margin-left: 439px;
+        margin-top: 0;
+    }
+    .container__pricing__text{
+        margin-top: 32px;
+        width: 100%;
+        height: 16px;
+        font-size: 14px;
+    }
+    .container__pricing__tariffs{
+        margin-top: 32px;
+        width: 100%;
+        height: 470px;
+    }
+    .container__pricing__tariffs__basic, .container__pricing__tariffs__optima, .container__pricing__tariffs__pro{
+        width: 317px;
+        height: 452.26px;
+    }
+    .container__pricing__tariffs__name{
+        width: 317px;
+        height: 53.21px;
+        font-size: 24px;
+    }
+    .container__pricing__tariffs__price{
+        width: 317px;
+        height: 88.68px;
+        font-size: 36px;
+    }
+    .container__pricing__tariffs__motto{
+        width: 317px;
+        height: 44.34px;
+        font-size: 18px;
+    }
+    .container__pricing__tariffs__space{
+        width: 317px;
+        height: 44.34px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    .pricing__center{
+        width: 100%;
+        height: 1480px;
+    }
+    .container__pricing{
+        width: 288px;
+    }
+    .container__pricing__header{
+        width: 288px;
+        height: 70px;
+        margin-left: 16px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .container__pricing__line{
+        width: 134px;
+        height: 2px; 
+        margin-left: 76px;
+    }
+    .container__pricing__text{
+        margin-top: 24px;
+        width: 288px;
+        height: 32px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .container__pricing__tariffs{
+        width: 288px;
+        display: contents;
+    }
+    .container__pricing__tariffs__basic, .container__pricing__tariffs__optima, .container__pricing__tariffs__pro{
+        width: 288px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .container__pricing__tariffs__name{
+        width: 288px;
+        height: 47.06px;
+        font-size: 18px;
+    }
+    .container__pricing__tariffs__price{
+        width: 288px;
+        height: 78.43px;
+        font-size: 24px;
+    }
+    .container__pricing__tariffs__motto{
+        width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
+    .container__pricing__tariffs__space{
+        width: 288px;
+        height: 39.22px;
+        font-size: 14px;
+    }
 }
