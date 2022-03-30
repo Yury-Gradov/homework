@@ -1,7 +1,11 @@
+
 .banner{
     width: 1510px;
     height: 1026px;
     background: url(/TeachMeSkills/HW/task__all/assets/image.svg);
+}
+.banner__header__burger{
+    display: none;
 }
 .banner__header{
     width: 1510px;
@@ -10,18 +14,20 @@
     display: inline-flex;
 }
 .banner__header__logo{
+    position: relative;
     width: 183px;
-    height: 74px;
+    height: 75px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: 115.28px;
 }
 .banner__header__menu{
+    position: relative;
     width: 570px;
     height: 75px;
     display: flex;
-    margin-left: 471.62px;
+    left: 567.91px;
 }
 .banner__header__menu__name{
     width: 114px;
@@ -211,9 +217,251 @@
     justify-content: space-between;
     align-items: center;
 }
+.social__icon__mobile{
+    display: none;
+}
 #style__icon{
     color: #CCCCCC;
 }
 #style__icon:hover{
     color: aqua;
+}
+@media (max-width: 1024px){
+    .banner{
+        width: 100%;
+    }
+    .banner__header__burger{
+        display: none;
+    }
+    .banner__header{
+        width: 100%;
+    }
+    .banner__content{
+        width: 100%;
+    }
+    .banner__header__menu{
+        position: relative;
+        width: 566px;
+        height: 75px;
+        left: 140px;
+    }
+    .banner__content{
+        width: 100%px;
+    }
+    .banner__content__logo{
+        width: 183px;
+        height: 75px;
+        margin-top: 136px;
+        margin-left: 115.28px;
+    }
+    .banner__content__text{
+        width: 454.36px;
+        height: 126px;
+        margin-top: 54px;
+        margin-left: 115.28px;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    .banner__content__separator{
+        width: 115.28px;
+        height: 2px;
+        margin-top: 41.49px;
+        margin-left: 115.28px;
+    }
+    .banner_content__text__2{
+        width: 183px;
+        height: 32px;
+        font-size: 14px;
+        margin-top: 31px;
+        margin-left: 115.28px;
+    }
+    .banner__content__button{
+        width: 183px;
+        height: 50px;
+        margin-top: 42px;
+        margin-left: 115.28px;
+    }
+    .banner__content__form{
+        width: 398px;
+        height: 450px;
+        margin-left: 600px;
+        margin-top: -450px;
+    }
+    .banner__content__form__img{
+        width: 298px;
+        height: 90px;
+        margin-left: 50px;
+    }
+    .banner__content__form__input__1{
+        width: 298px;
+        height: 38px;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    .banner__content__form__input__2{
+        width: 298px;
+        height: 38px;
+        margin-top: 33px;
+        margin-left: 50px;
+    }
+    .banner__content__form__input__type{
+        width: 298px;
+        height: 38px;
+    }
+    .banner__content__form__button{
+        width: 398px;
+        height: 60px;
+    }
+    .social{
+        width: 100%;
+        height: 105px;
+    }
+    .social__content__text__1{
+        width: 402px;
+        height: 45px;
+        margin-top: 2px;
+        margin-left: 16px;
+        font-size: 18px;
+    }
+    .social__content__text__2{
+        width: 402px;
+        height: 32px;
+        margin-top: 13px;
+        margin-left: 18px;
+        font-size: 14px;
+    }
+    .social__icon{
+        width: 600px;
+        height: 105px;
+        margin-right: 30px;
+    }
+    .social__icon__mobile{
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .banner{
+        width: 320px;
+    }
+    .banner__header{
+        width: 320px;
+        height: 56px;
+    }
+    .banner__header__logo{
+        width: 130px;
+        height: 56px;
+        margin-left: 20px;
+    }
+    .banner__header__burger:before{
+        content: '';
+        box-shadow: 0 6px white,0 12px white;
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        background: white;
+        top: 19px;
+        left: 261px;
+    }
+    .banner__content{
+        width: 100%;
+    }
+    .banner__header__menu{
+        display: none;
+    }
+    .banner__content__logo{
+        display: none;
+    }
+    .banner__content__text{
+        width: 288px;
+        height: 168px;
+        margin-top: 84.12px;
+        margin-left: 16px;
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+    }
+    .banner__content__separator{
+        width: 134px;
+        margin-top: 43.88px;
+        margin-left: 93px;
+    }
+    .banner_content__text__2{
+        width: 288px;
+        margin-top: 42px;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .banner__content__button{
+        width: 288px;
+        margin-top: 42px;
+        margin-left: 16px;
+    }
+    .banner__content__form{
+        width: 288px;
+        height: 381px;
+        margin-left: 16px;
+        margin-top: 56px;
+    }
+    .banner__content__form__img{
+        width: 240px;
+        height: 90px;
+        margin-left: 20px;
+    }
+    .image{
+        width: 220px;
+    }
+    .banner__content__form__input__1{
+        width: 240px;
+        height: 38px;
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+    .banner__content__form__input__2{
+        width: 240px;
+        height: 38px;
+        margin-top: 33px;
+        margin-left: 20px;
+    }
+    .banner__content__form__input__type{
+        width: 240px;
+        height: 38px;
+    }
+    .banner__content__form__button{
+        width: 288px;
+        height: 60px;
+        margin-top: 51px;
+    }
+    .social{
+        width: 320px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social__content__text__1{
+        width: 287px;
+        height: 45px;
+        margin-top: 31px;
+        margin-left: 17px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .social__content__text__2{
+        width: 271px;
+        height: 48px;
+        margin-top: 13px;
+        margin-left: 33px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .social__icon{
+        display: none;
+    }
+    .social__icon__mobile{
+        width: 320px;
+        height: 24px;
+        display: inline-flex;
+        justify-content: space-around;
+        margin-top: 35px;
+    }
 }
