@@ -2,7 +2,7 @@
 .banner{
     width: 1510px;
     height: 1026px;
-    background: url(/assets/image.svg);
+    background: url(assets/image.svg);
 }
 .banner__header__burger{
     display: none;
