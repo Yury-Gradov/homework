@@ -1,0 +1,99 @@
+@media screen and (min-width:1511px) {
+    .banner__2{
+        display: flex;
+        justify-content: center;
+    }
+}
+.banner__2{
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(../assets/image__2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner__second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1510px;
+    min-height: 442px;
+}
+.banner__second__text__1{
+    font-family: 'Raleway', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner__second__line{
+    width: 170px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-top: 40px;
+}
+.banner__second__text__2{
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.banner__second__button{
+    width: 370px;
+    height: 58px;
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #FFFFFF;
+}
+.banner__second__button:hover {
+    color: #a4f70b;
+    box-shadow: inset 0 0 0 5px #a4f70b;
+    border-color: #a4f70b;
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .banner__second__text__1{
+        font-size: 24px;
+    }
+    .banner__second__line{
+        width: 134px;
+    }
+    .banner__second__text__2{
+        font-size: 14px;
+    }
+    .banner__second__button{
+        width: 287px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .banner__second__text__1{
+        font-size: 24px;
+    }
+    .banner__second__line{
+        width: 134px;
+    }
+    .banner__second__text__2{
+        font-size: 14px;
+    }
+    .banner__second__button{
+        width: 250px;
+        height: 50px;
+    }
+
+}
